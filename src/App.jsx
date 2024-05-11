@@ -103,6 +103,7 @@ function App() {
       flexDirection : 'column',
       gap : 25
     }}>
+      <div><h1>Chessboard-Tiling</h1></div>
       <div>
       <input placeholder='Enter Size' type="number" id='size' value={size} onChange={e => setSize(e.target.value)} />
       <input placeholder='Enter X Quadrant' type="number" id='x' value={x} onChange={e => setX(e.target.value)} />
